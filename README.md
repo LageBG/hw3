@@ -3,10 +3,11 @@ What code draws the blades of grass?
 "line(x, height-10, x+random(-10, 10), height-10-random(h));"
 
 What code makes the "lawnmower" come by? How often does it come by?
-
-"if (x > width) {
-    x = random(10);
-    h = h + 3;
+  
+  "if (random(1000) > 999) {
+    fill(255);
+    rect(0, 0, width, height-15);
+    h = 10;
   }"
 
 What's the point of the h variable?
